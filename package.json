@@ -3,9 +3,14 @@
   "scripts": {
     "build": "nitro build",
     "dev": "nitro dev",
-    "preview": "node .output/server/index.mjs"
+    "preview": "wrangler dev --config wrangler.jsonc"
   },
   "devDependencies": {
-    "nitropack": "latest"
+    "nitropack": "2.13.4",
+    "wrangler": "4.149.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "workerd@1.20261006.1": true
   }
 }

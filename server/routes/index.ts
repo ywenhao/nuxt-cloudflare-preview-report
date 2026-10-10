@@ -1,3 +1,3 @@
-export default eventHandler((event) => {
-  return "Start by editing <code>server/routes/index.ts</code>.";
+export default eventHandler(() => {
+  return "Pure Nitro Cloudflare preview warning reproduction.";
 });

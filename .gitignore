@@ -4,4 +4,5 @@ dist
 .nitro
 .cache
 .output
+.wrangler
 .env
